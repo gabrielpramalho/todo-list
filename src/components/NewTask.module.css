@@ -1,0 +1,48 @@
+.newTask{
+    display: flex;
+    gap: .5rem;
+    flex: 1 0 0;
+    margin-top: -1.6875rem;
+}
+
+.newTask input{
+    background: var(--gray-500);
+    border-radius: 8px;
+    color: var(--gray-100);
+    border: 0;
+    padding: 1rem;
+    line-height: 1.4;
+    flex: 1;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.newTask input::placeholder{
+    color: var(--gray-300);
+}
+
+.newTask button{
+    padding: 1rem;
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: background-color .1s;
+    -webkit-transition: background-color .1s;
+    -moz-transition: background-color .1s;
+    -ms-transition: background-color .1s;
+    -o-transition: background-color .1s;
+}
+
+.newTask button:hover{
+    background: var(--blue);
+}
